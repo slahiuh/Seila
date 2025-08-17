@@ -153,10 +153,6 @@ local Tab6 = Window:MakeTab({"RGBS", "brush"})
 local Tab7 = Window:MakeTab({"Audio All", "radio"})    
 local Tab8 = Window:MakeTab({"Music", "music"}) 
 local Tab9 = Window:MakeTab({"Troll", "skull"}) 
-local Tab11 = Window:MakeTab({"Scripts", "scroll"})
-local Tab12 = Window:MakeTab({"Teleportes", "map-pin"})
-
-
 
 
 
@@ -189,7 +185,8 @@ local Paragraph = Tab1:AddParagraph({"Execultor", executorName})
 
 local Section = Tab1:AddSection({"Versão Do Hub V1"})
 
-local Paragraph = Tab1:AddParagraph({"Criadores", "e0davizinTA \n Herry"})
+local Paragraph = Tab1:AddParagraph({"Criadores", "Coquette Hub
+    \n Herry"})
 
 
   
@@ -4931,3 +4928,4 @@ Tab12:AddButton({
     end
 
 })
+
